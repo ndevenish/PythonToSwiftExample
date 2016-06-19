@@ -13,6 +13,7 @@
 		0A027C291D14873100B6C31B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A027C271D14873100B6C31B /* Main.storyboard */; };
 		0A027C331D14C4BC00B6C31B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0A62F7831D15654F00BF731D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A62F7821D15654F00BF731D /* main.swift */; };
+		0A62F7851D15659C00BF731D /* Bridge.plugin in Resources */ = {isa = PBXBuildFile; fileRef = 0A62F7841D15659C00BF731D /* Bridge.plugin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0A027C281D14873100B6C31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A027C2A1D14873100B6C31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A62F7821D15654F00BF731D /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0A62F7841D15659C00BF731D /* Bridge.plugin */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Bridge.plugin; path = dist/Bridge.plugin; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		0A027C201D14873100B6C31B /* PythonToSwiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				0A62F7841D15659C00BF731D /* Bridge.plugin */,
 				0A62F7821D15654F00BF731D /* main.swift */,
 				0A027C211D14873100B6C31B /* AppDelegate.swift */,
 				0A027C231D14873100B6C31B /* ViewController.swift */,
@@ -128,6 +131,7 @@
 			files = (
 				0A027C261D14873100B6C31B /* Assets.xcassets in Resources */,
 				0A027C291D14873100B6C31B /* Main.storyboard in Resources */,
+				0A62F7851D15659C00BF731D /* Bridge.plugin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
