@@ -10,7 +10,9 @@ from setuptools import setup
 
 APP = ['Bridge.py']
 OPTIONS = {
-  "includes": ["bridge", "ocr"]
+  # Any local packages to include in the bundle should go here.
+  # See the py2app documentation for more.
+  "includes": [], 
 }
 
 setup(
