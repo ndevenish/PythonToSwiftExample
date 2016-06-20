@@ -12,7 +12,9 @@ class ViewController: NSViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    let pythonMessage = Bridge.sharedInstance().getPythonInformation()
+    Swift.print("Info from python:\n\(pythonMessage)")
+    
     // Do any additional setup after loading the view.
   }
 

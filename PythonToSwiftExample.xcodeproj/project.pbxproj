@@ -14,6 +14,7 @@
 		0A027C331D14C4BC00B6C31B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0A62F7831D15654F00BF731D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A62F7821D15654F00BF731D /* main.swift */; };
 		0A62F7851D15659C00BF731D /* Bridge.plugin in Resources */ = {isa = PBXBuildFile; fileRef = 0A62F7841D15659C00BF731D /* Bridge.plugin */; };
+		0A62F7871D176E3800BF731D /* BridgeInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A62F7861D176E3800BF731D /* BridgeInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0A027C2A1D14873100B6C31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A62F7821D15654F00BF731D /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0A62F7841D15659C00BF731D /* Bridge.plugin */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Bridge.plugin; path = dist/Bridge.plugin; sourceTree = SOURCE_ROOT; };
+		0A62F7861D176E3800BF731D /* BridgeInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				0A027C251D14873100B6C31B /* Assets.xcassets */,
 				0A027C271D14873100B6C31B /* Main.storyboard */,
 				0A027C2A1D14873100B6C31B /* Info.plist */,
+				0A62F7861D176E3800BF731D /* BridgeInterface.swift */,
 			);
 			path = PythonToSwiftExample;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A027C241D14873100B6C31B /* ViewController.swift in Sources */,
+				0A62F7871D176E3800BF731D /* BridgeInterface.swift in Sources */,
 				0A027C221D14873100B6C31B /* AppDelegate.swift in Sources */,
 				0A62F7831D15654F00BF731D /* main.swift in Sources */,
 				0A027C331D14C4BC00B6C31B /* (null) in Sources */,
