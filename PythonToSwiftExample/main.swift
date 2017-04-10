@@ -4,7 +4,7 @@
 import Cocoa
 
 // Load the python-based plugin bundle
-let path = Bundle.main().pathForResource("Bridge", ofType: "plugin")
+let path = Bundle.main.path(forResource: "Bridge", ofType: "plugin")
 guard let pluginbundle = Bundle(path: path!) else {
   fatalError("Could not load python plugin bundle")
 }
@@ -19,5 +19,5 @@ guard let pc = pluginbundle.principalClass as? BridgeInterface.Type else {
 let interface = pc.createInstance()
 Bridge.setSharedInstance(to: interface)
 
-NSApplicationMain(Process.argc, Process.unsafeArgv)
-
+let ret = NSApplicationMain(CommandLine.argc, CommandLine.unsafeArgv)
+exit(ret)
